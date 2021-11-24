@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat' , sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+} 
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+.header {
+    width: 100%;
+    z-index: 10;
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Header Entrance */
+
+.header__entrance {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.entrance__link {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.entrance__link__sign-up {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+}
+
+
+
+/* Intro */
+
+.intro {
+    background: url("./images/intro.jpg") no-repeat, center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro__inner {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    text-align: center;
+    margin-top: 163px;
+    margin-bottom: 235px;
+}
+
+.intro__title {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.intro__title__below {
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 47px;
+}
+
+/* Intro brn */
+.intro__title__btn {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 23px 14px 23px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
