@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Montserrat' , sans-serif;
     color: #333333;
-    line-height: 1.6;
 }
 
 *,
@@ -39,7 +38,6 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 /* Header Entrance */
@@ -47,6 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 .header__entrance {
     font-size: 14px;
     color: #ffffff;
+    margin-right: -15px;
 }
 
 .entrance__link {
@@ -59,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .entrance__link__sign-up {
     border: 2px solid rgb(255, 255, 255);
-    padding: 10px 15px 10px 15px;
+    padding: 8px 20px 8px 15px;
     border-radius: 20px;
 }
 
@@ -68,20 +67,19 @@ h1,h2,h3,h4,h5,h6 {
 /* Intro */
 
 .intro {
-    background: url("./images/intro.jpg") no-repeat, center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background: url("./images/intro.jpg");
+    height: 100vh;
 }
+
 .intro__inner {
     width: 100%;
-    max-width: 500px;
     margin: 0 auto;
     margin-bottom: 130px;
     text-align: center;
-    margin-top: 163px;
+    margin-top: 136px;
     margin-bottom: 235px;
+    margin-left: 20px;
+    /* 163 */
 }
 
 .intro__title {
@@ -99,19 +97,19 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: lighter;
     font-size: 24px;
     text-align: center;
-    margin-top: 47px;
+    margin-top: 30px;
 }
 
 /* Intro brn */
 .intro__title__btn {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    padding: 14px 23px 14px 23px;
+    padding: 12px 23px 12px 23px;
     background-color: #ff4e50;
-    border-radius: 20px;
+    border-radius: 21px;
     display: inline-block;
     vertical-align: top;
 }
