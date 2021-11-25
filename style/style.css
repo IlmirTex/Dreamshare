@@ -45,7 +45,6 @@ h1,h2,h3,h4,h5,h6 {
 .header__entrance {
     font-size: 14px;
     color: #ffffff;
-    margin-right: -15px;
 }
 
 .entrance__link {
@@ -67,8 +66,10 @@ h1,h2,h3,h4,h5,h6 {
 /* Intro */
 
 .intro {
-    background: url("./images/intro.jpg") ;
-    background-size: cover;
+    background: url("./images/intro.jpg") no-repeat;
+    background-size: unset;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .intro__inner {
@@ -76,9 +77,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto;
     text-align: center;
     margin-top: 136px;
-    margin-bottom: 235px;
-    margin-left: 20px;
-    /* 163 */
 }
 
 .intro__title {
@@ -100,7 +98,7 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-/* Intro brn */
+/* Intro btn */
 .intro__title__btn {
     margin-top: 30px;
     color: #ffffff;
@@ -115,6 +113,229 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 234px;
 }
 
+/* work-steps */
+
+.work-steps{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.title-block {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.steps {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__block {
+    position: relative;   
+}
+
+.steps__text {
+    padding: 20px ;
+    position: absolute;
+    bottom: 0;
+}
+
+.steps__text__step {
+    padding: 6px 16px;
+    background-color: #ff4e50;
+    color: #ffffff;
+    border-radius: 21px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.steps__text__title {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.steps__text__description {
+    color: #cccccc;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    margin-top: 15px;
+}
 
 
 
+
+/* partner */
+
+.partner {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.partner__info {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner__name {
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.partner__description {
+    margin-top: 19px;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: #666666;
+}
+.partner__info__description{
+    text-align: center;
+}
+
+.partner__button {
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+.partner__btn {
+    text-decoration: none;
+    padding:14px 30px;
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    border-radius: 21px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* idaes */
+
+.ideas {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.ideas__block__flex {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ideas__block {
+    margin-top: 15px;
+    position: relative;
+}
+
+.ideas__block__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+}
+
+
+/* discover-ideas */
+
+
+.discover-ideas {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.discover-ideas__question{
+    margin-top: 41px;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: lighter;
+    color: #333333;
+}
+.discover-ideas__nav{
+    margin-top: 43px;
+}
+
+.discover-ideas__nav__input{
+    border: 2px solid #999999;
+    border-radius: 2px;
+    padding: 11px ;
+    color: #999999;
+    outline: none;
+
+}
+
+.discover-ideas__nav__search {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff4e50;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 21px;
+    margin-left: 14px;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 100px;
+    border-top: 4px solid #ff4e50;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+}
+.footer__block {
+    margin-right: 117px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer__block ul {
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+.footer__block li {
+    margin-top: 11px;
+}
+
+.footer__block__name {
+    font-size: 16px;
+    color: #ff4e50;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__block__menu__title {
+    font-size: 14px;
+    font-weight: bold;
+}
