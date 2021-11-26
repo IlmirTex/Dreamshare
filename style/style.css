@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6 {
 .intro {
     background: url("./images/intro.jpg") no-repeat;
     background-size: unset;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .intro__title {
     color: #ffffff;
-    font-size: 52px;
+    font-size: 2,4762rem;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -171,36 +171,37 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-/* partner */
+/* info */
 
-.partner {
+.info {
     margin-top: 100px;
     width: 100%;
 }
 
-.partner__info {
+.info__partner {
     margin-top: 33px;
     display: flex;
     justify-content: space-between;
 }
+.info__partner__block{
+    text-align: center;
+}
 
-.partner__name {
+.partner__block__name {
     margin-top: 21px;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
 }
 
-.partner__description {
+.partner__block__description {
     margin-top: 19px;
     font-size: 14px;
     font-family: 'Roboto',sans-serif;
     text-align: center;
     color: #666666;
 }
-.partner__info__description{
-    text-align: center;
-}
+
 
 .partner__button {
     margin-top: 55px;
@@ -296,7 +297,6 @@ h1,h2,h3,h4,h5,h6 {
 .footer {
     margin-top: 100px;
     border-top: 4px solid #ff4e50;
-    width: 100%;
     padding: 40px 0px;
 }
 
@@ -339,3 +339,79 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 14px;
     font-weight: bold;
 }
+
+
+/* media */
+/* @media (max-width:1200px) {
+
+}
+
+
+@media(min-width:992px) {
+
+}
+
+@media screen and (max-width:600px){
+    .container {
+        width: 100%;
+    }
+    .intro {
+
+    }
+    .header__logo {
+        display: none;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ideas__block {
+        text-align: center;
+    }
+    .ideas__block img {
+        object-fit: cover ;
+        width: 300px;
+        height: 120px;
+    }
+    .footer {
+        max-width: 575px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .footer__flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__block {
+        margin-right: 0px;
+    }
+    .footer__block ul {
+        text-align: center;
+    }
+    .footer__logo {
+        text-align: center;
+    }
+    .partner__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ideas__block__flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} */
