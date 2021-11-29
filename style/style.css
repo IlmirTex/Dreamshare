@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
     cursor: pointer;
 }
-.entrance__link__sign-up {
+.entrance__link-sign-up {
     border: 2px solid rgb(255, 255, 255);
     padding: 8px 20px 8px 15px;
     border-radius: 20px;
@@ -88,7 +88,7 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 
-.intro__title__below {
+.intro__sub-title {
     color: #ffffff;
     font-family: 'Roboto',sans-serif;
     font-weight: lighter;
@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Intro btn */
-.intro__title__btn {
+.intro__title-btn {
     margin-top: 30px;
     color: #ffffff;
     font-size: 14px;
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6 {
     bottom: 0;
 }
 
-.steps__text__step {
+.steps__step {
     padding: 6px 16px;
     background-color: #ff4e50;
     color: #ffffff;
@@ -152,14 +152,14 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.steps__text__title {
+.steps__title {
     margin-top: 20px;
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
 }
 
-.steps__text__description {
+.steps__description {
     color: #cccccc;
     font-size: 14px;
     font-family: 'Roboto',sans-serif;
@@ -183,18 +183,18 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     justify-content: space-between;
 }
-.info__partner__block{
+.info__block{
     text-align: center;
 }
 
-.partner__block__name {
+.info__name {
     margin-top: 21px;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
 }
 
-.partner__block__description {
+.info__description {
     margin-top: 19px;
     font-size: 14px;
     font-family: 'Roboto',sans-serif;
@@ -240,7 +240,7 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
 }
 
-.ideas__block__title {
+.ideas__title {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 43px;
 }
 
-.discover-ideas__nav__input{
+.discover-ideas__input{
     border: 2px solid #999999;
     border-radius: 2px;
     padding: 11px ;
@@ -281,7 +281,7 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-.discover-ideas__nav__search {
+.discover-ideas__search {
     text-decoration: none;
     color: #ffffff;
     background-color: #ff4e50;
@@ -328,7 +328,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 11px;
 }
 
-.footer__block__name {
+.footer__name {
     font-size: 16px;
     color: #ff4e50;
     font-weight: bold;
@@ -346,6 +346,9 @@ h1,h2,h3,h4,h5,h6 {
 @media screen and (max-width:1100px) {
     .container {
         width: 750px;
+    }
+    .intro {
+        background-position: center;
     }
     .ideas__big-img {
         max-width: 490px;
@@ -373,6 +376,8 @@ h1,h2,h3,h4,h5,h6 {
         text-align: center;
         max-width: 252px;
         line-height: 1.1;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -474,7 +479,7 @@ h1,h2,h3,h4,h5,h6 {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .discover-ideas__nav__search {
+    .discover-ideas__search {
         margin-top: 20px;
     }
     .footer__title {
