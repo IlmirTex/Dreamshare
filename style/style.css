@@ -347,6 +347,10 @@ h1,h2,h3,h4,h5,h6 {
     .container {
         width: 750px;
     }
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .intro {
         background-position: center;
     }
@@ -394,10 +398,14 @@ h1,h2,h3,h4,h5,h6 {
     }
     .intro {
         background-position: center;
+        height: 575px;
     }
     .intro__inner {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .work-steps {
+        margin-top: 40px;
     }
     .steps{
         display: flex;
@@ -405,10 +413,28 @@ h1,h2,h3,h4,h5,h6 {
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin-top: 10px;
+    }
+    .steps__block {
+      margin-top: -5px;  
+    }
+
+    .title-block {
+        font-size: 20px;
     }
     .steps__block img {
         max-width: none;
         margin-top: 10px;
+        height: 240px;
+        width: 300px;
+        object-fit: cover;
+    }
+    .info {
+        margin-top: 50px;
+    }
+
+    .ideas {
+        margin-top: 50px;
     }
     .ideas__block {
         text-align: center;
@@ -472,6 +498,9 @@ h1,h2,h3,h4,h5,h6 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .discover-ideas {
+        margin-top: 50px;
     }
     .discover-ideas__nav {
         display: flex;
